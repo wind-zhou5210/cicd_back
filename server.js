@@ -1,8 +1,8 @@
 let http = require("http");
 let users = [
-  { id: 1, name: "周正2113" },
-  { id: 2, name: "周正 2213" },
-  { id: 3, name: "周正2313" },
+  { id: 1, name: "周正1" },
+  { id: 2, name: "周正 2" },
+  { id: 3, name: "周正3" },
 ];
 let server = http.createServer(function (req, res) {
   console.log(req.method, req.url);
